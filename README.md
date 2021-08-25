@@ -25,11 +25,11 @@ Ao executar a API uma interface criada pelo Swagger aparecerá com as acões da 
 
 # Funcionalidades da API
 
-GET /api/Contas/{conta} -Obtém o saldo existente da conta informada
+GET /api/Contas/Saldo/{NumeroConta} -Obtém o saldo existente da conta informada
 
-PUT /api/Depositar -Realiza um depósito de uma quantia na conta especificada e retorna o numero da conta com  o saldo atualizado
+PUT /api/Contas/Depositar -Realiza um depósito de uma quantia na conta especificada e retorna o numero da conta com  o saldo atualizado
 
-PUT /api/Depositar/sacar -Realiza o saque  de uma quantia na conta especificada e retorna o numero da conta com o saldo atualizado, caso o saque seja maior do que o valor da conta retorna uma mensagem de erro "Saldo insuficiente"
+PUT /api/Contas/Sacar -Realiza o saque  de uma quantia na conta especificada e retorna o numero da conta com o saldo atualizado, caso o saque seja maior do que o valor da conta retorna uma mensagem de erro "Saldo insuficiente"
 
 
 As funcionalidades da API foram testadas utulizando testes Unitarios que se encontram no projeto  e o Postman 
