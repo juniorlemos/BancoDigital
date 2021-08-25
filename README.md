@@ -6,6 +6,7 @@ Implementação de uma API utilizando algumas funcionalides de um Banco Digital.
 - entity framework core
 - Mysql
 - Xunit
+- NSubstitute
 - Docker
 - Swagger
 
