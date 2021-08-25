@@ -1,7 +1,7 @@
 # BancoDigital
 Implementação de uma API utilizando algumas funcionalides de um Banco Digital.
 
-- Tecnologias Utilizadas.
+# Tecnologias Utilizadas.
 - dotnet core 5
 - entity framework core
 - Mysql
