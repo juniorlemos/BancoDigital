@@ -27,7 +27,7 @@ namespace BancoDigital.Controllers
 
 
 
-        [HttpGet("saldo/{conta}")]
+        [HttpGet("Saldo/{NumeroConta}")]
         public async Task<ActionResult> Saldo(string conta)
         {
 
