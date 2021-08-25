@@ -11,15 +11,15 @@ Implementação de uma API utilizando algumas funcionalides de um Banco Digital.
 
 
 # Instalação e Execução
-Instale a versão do dotnet 5.0 no site https://dotnet.microsoft.com/download .
-Instale o Banco de dados mysql  https://www.mysql.com/downloads/ .
+Instale a versão do dotnet 5.0 no site https://dotnet.microsoft.com/download 
+Instale o Banco de dados mysql  https://www.mysql.com/downloads/ 
 
-Após os passos acima faça o clone do projeto.
+Após as instalações acima feitas corretamente faça o clone do projeto
 Modifique a connection string  que fica localizada no arquivo appsettings.json de acordo com a sua configuraçao do Mysql
-Execute a API através da sua IDE de preferência ou terminal.
+Execute a o projeto através da sua IDE de preferência ou terminal
 Ao executar a API uma interface criada pelo Swagger aparecerá com as acões da API
 
-# ACÔES DA API
+# Funcionalidades da API
 
 GET /api/Contas/{conta} -Obtém o saldo existente da conta informada
 
@@ -28,7 +28,7 @@ PUT /api/Depositar -Realiza um depósito de uma quantia na conta especificada e 
 PUT /api/Depositar/sacar -Realiza o saque  de uma quantia na conta especificada e retorna o saldo atualizado, caso o saque seja maior do que o valor da conta retorna uma mensagem de erro "Saldo insuficiente"
 
 
-As funciolandidades da API foram testadas utulizando testes Unitarios que se encontram no projeto  e o Postman 
+As funcionalidades da API foram testadas utulizando testes Unitarios que se encontram no projeto  e o Postman 
 
 
 
