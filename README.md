@@ -15,8 +15,11 @@ Instale a versão do dotnet 5.0 no site https://dotnet.microsoft.com/download
 Instale o Banco de dados mysql  https://www.mysql.com/downloads/ 
 
 Após as instalações acima feitas corretamente faça o clone do projeto
+
 Modifique a connection string  que fica localizada no arquivo appsettings.json de acordo com a sua configuraçao do Mysql
+
 Execute a o projeto através da sua IDE de preferência ou terminal
+
 Ao executar a API uma interface criada pelo Swagger aparecerá com as acões da API
 
 # Funcionalidades da API
